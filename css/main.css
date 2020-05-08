@@ -1,3 +1,4 @@
+*{font-family: 'Roboto', sans-serif;}
 body{
     width: 100%; 
     height: 100%;
@@ -11,7 +12,7 @@ ul{
     background-color: #252323;
     height: 60px;
 }
-main {
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -138,7 +139,7 @@ button.slick-next:focus {
     margin: 0 auto;
     width: 50%;
     position: absolute;
-    left: 50%;
+    left: 45%;
     top: 90%;
 }
 li.slick-active button {
@@ -154,4 +155,21 @@ li.slick-active button:focus{
 .slick-dots li {
     padding-left: 10px;
     display: inline-block;
+}
+.texto-destaque{
+    text-align: center;
+}
+.texto-destaque strong {
+    color: #646464;
+}
+.texto-destaque h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #818181;
+}
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+    font-family: roboto;
+    font-style: Thin 100;
 }
