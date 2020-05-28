@@ -18,9 +18,29 @@ main, .content {
     position: relative;
 }
 .logo {
+    background: url(../img/logo-desk2.png) no-repeat;
     float: left;
     padding: 20px;
-    width: 70%;
+    height: 50px;
+    width: 272px;
+    margin-top: 20px;
+}
+.btn-menu {
+    width: 56px; 
+    height: 56px; 
+    float: right; 
+    text-align: center;
+    color: #00bac6; 
+    border-radius: 56px; 
+    cursor: pointer;
+}
+
+.btn-close {
+    font-size: 1.5em; 
+    color: #fff; 
+    float: right; 
+    cursor: pointer; 
+    margin: 2% 3% 0 0;
 }
 .redes-sociais ul li {
     margin-left: 20px;
@@ -172,4 +192,61 @@ li.slick-active button:focus{
     color: #9a9a9a;
     font-family: roboto;
     font-style: Thin 100;
+    text-align: center;
 }
+.col-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+h3 {
+    font-weight: normal!important;
+}
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: 49%;
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+}
+
+@media (min-width: 320px) and (max-width: 800px){
+    .logo {
+        width: 65%;
+        margin-left: 20px;  
+        background: url(../img/logo-desk2.png) no-repeat;} 
+    .btn {font-size: 3em;}  
+   }
